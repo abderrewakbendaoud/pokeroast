@@ -7,7 +7,15 @@ authors = [
     { name = "maxykoin", email = "stayerim@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "google-generativeai>=0.8.6",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "python-dotenv>=1.2.1",
+    "pyttsx3>=2.99",
+    "requests>=2.32.5",
+    "streamlit>=1.52.2",
+]
 
 [build-system]
 requires = ["uv_build>=0.9.20,<0.10.0"]

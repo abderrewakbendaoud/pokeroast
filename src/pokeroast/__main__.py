@@ -1,4 +1,4 @@
-from pokeroast.main import main
+from .app import start
 
 if __name__ == "__main__":
-    main()
+    start()
