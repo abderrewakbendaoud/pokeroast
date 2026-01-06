@@ -1,8 +1,8 @@
-# 🚀 Team Rocket's Tactical Analysis Terminal
+# 🚀 Team Rocket's Tactical Analysis Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.41-FF4B4B?logo=streamlit&logoColor=white)
-![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange?logo=google-gemini&logoColor=white)
+![Groq](https://img.shields.io/badge/AI-Groq-orange?logo=openai&logoColor=white)
 ![PokeAPI](https://img.shields.io/badge/Data-PokeAPI-yellow?logo=pokemon&logoColor=black)
 
 A Pokemon Team Bullying Dashboard that uses GenAI and Data Science to mathematically prove why your team is failing.
@@ -14,7 +14,7 @@ A Pokemon Team Bullying Dashboard that uses GenAI and Data Science to mathematic
 ---
 
 ## 📸 Capabilities
-* **Roast-O-Matic (TTS):** Uses Google Gemini to generate a visceral, game-aware roast of the user's team, read aloud by a robotic text-to-speech engine.
+* **Roast-O-Matic (TTS):** Uses Groq (Llama 3) to generate a visceral, game-aware roast of the user's team, read aloud by a robotic text-to-speech engine.
 * **The Survival Matrix:** A dynamic, 12-point color scale Heatmap that calculates compound defensive vulnerabilities (e.g., identifying a collective 6x weakness to Ice).
 * **The Headhunter Algorithm:** Automated "HR Department" logic that identifies the biggest liability (Fire) and queries the PokeAPI for a mathematically perfect counter-pick (Hire).
 * **Game-Aware Intelligence:** Adapts advice and valid Pokémon lists based on the selected game version (from *Red/Blue* to *Scarlet/Violet*).
@@ -24,7 +24,7 @@ A Pokemon Team Bullying Dashboard that uses GenAI and Data Science to mathematic
 | Component | Technology | Description |
 | :--- | :--- | :--- |
 | **Logic** | Python 3.11 | Core application logic |
-| **AI Model** | Google Gemini 2.0 Flash | Context-aware roasting & meta analysis |
+| **AI Model** | Groq (Llama 3.3) | Context-aware roasting & meta analysis |
 | **Frontend** | Streamlit | Custom CSS "Rocket Theme" UI |
 | **Data** | PokeAPI | Real-time stats, sprites, and type charts |
 | **Viz** | Plotly | Interactive Heatmaps & Radar Charts |
@@ -40,18 +40,10 @@ cd pokeroast
 uv sync
 
 # 3. Set up your API Key
-# Create a .env file and add your Google Gemini Key
-echo "GEMINI_API_KEY=your_api_key_here" > .env
+# Create a .env file and add your Groq API Key
+echo "GROQ_API_KEY=gsk_your_key_here" > .env
 
-# 4. Check Available Models
-# Run the debug tool to see which Gemini models your key can access
-uv run python src/pokeroast/debug.py
-
-# 5. Configure Model
-# Add the working model ID from the debug output to your .env
-echo "GEMINI_MODELS=models/gemini-2.0-flash-exp" >> .env
-
-# 6. Launch the Terminal
+# 4. Launch the Terminal
 uv run streamlit run src/pokeroast/app.py
 ```
 
